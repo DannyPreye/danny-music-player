@@ -51,7 +51,7 @@ const TopPlay = () => {
           <Link to={`/songs/${song.key}`}>
             <p className='text-xl font-bold  text-white'>{song?.title}</p>
           </Link>
-          <Link to={`/songs/${song.artists[0].adamid}`}>
+          <Link to={`/artists/${song.artists[0].adamid}`}>
             <p className='text-base   text-gray-300 mt-1'>{song?.subtitle}</p>
           </Link>
         </div>
